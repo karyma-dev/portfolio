@@ -132,3 +132,8 @@ a {
 a:visited {
   color: black;
 }
+
+body {
+  background-color: #171717;
+  color: white;
+}

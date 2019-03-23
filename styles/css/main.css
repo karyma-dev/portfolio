@@ -2,22 +2,36 @@
   margin: 0 5%;
 }
 
+.title {
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+}
+
 /* -Nav- */
 
 .nav {
   position: fixed;
+  height: 50px;
   width: 100%;
-  background-color: pink;
 }
 
 .nav_list {
-  background-color: yellow;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  height: 100%;
 }
 
 .nav_list_item {
   margin-left: 50px;
+}
+
+.nav_list_links {
+  color: white;
+}
+
+.nav_list_links:visited {
+  color: white;
 }
 
 /* -Header- */
@@ -28,10 +42,50 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #171717;
+  color: white;
 }
 
 .header_main {
+  margin-bottom: 2vh;
 }
 
 .header_secondary {
+}
+
+/* -Main- */
+
+.main {
+}
+
+/* -About- */
+
+.about {
+  margin-bottom: 10vh;
+}
+
+.about_title {
+}
+
+.about_paragraph_container {
+  display: flex;
+  align-items: center;
+}
+
+.about_image_container {
+}
+
+.about_image {
+  width: 20vw;
+  height: auto;
+  clip-path: circle(38%);
+}
+
+/* -Skills- */
+
+.skills {
+}
+
+.skills_list_container {
+  display: flex;
 }
