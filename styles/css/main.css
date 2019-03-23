@@ -1,0 +1,37 @@
+.container {
+  margin: 0 5%;
+}
+
+/* -Nav- */
+
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: pink;
+}
+
+.nav_list {
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_list_item {
+  margin-left: 50px;
+}
+
+/* -Header- */
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_main {
+}
+
+.header_secondary {
+}
