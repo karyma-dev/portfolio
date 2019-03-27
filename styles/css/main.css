@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: var(--primary-bg-color);
+  background-color: var(--primary-nav-color);
   color: black;
 }
 
@@ -14,23 +14,38 @@ body {
   background: url('../../images/laptop.jpg');
   background-size: cover;
   background-position: center top;
+  background-attachment: fixed;
   min-height: 100vh;
-  clip-path: polygon(0 0, 100% 0, 100% 72%, 0 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 .nav {
-  position: fixed;
   width: 100%;
-  margin-top: 10vh;
-}
-
-.nav_list {
+  margin-top: 5vh;
   display: flex;
   justify-content: flex-end;
 }
 
+.nav_list {
+  display: flex;
+}
+
 .nav_list_item {
+}
+
+.title {
   background-color: var(--primary-nav-color);
   color: var(--secondary-font-color);
-  padding: 20px 50px;
+  display: inline-block;
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  padding: 20px;
+  text-align: center;
+}
+
+.title_h1 {
+}
+
+.title_h2 {
 }
