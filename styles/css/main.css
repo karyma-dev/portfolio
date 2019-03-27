@@ -1,51 +1,35 @@
 :root {
-  --primary-bg-color: #c4c4c4;
-  --primary-nav-color: #1f1f1f;
-  --primary-font-color: black;
-  --secondary-font-color: white;
+  --primary-color: #c4c4c4;
 }
 
 body {
-  background-color: var(--primary-nav-color);
-  color: black;
 }
 
-.hero {
-  background: url('../../images/laptop.jpg');
-  background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-  min-height: 100vh;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+.container {
+  padding: 1%;
 }
 
-.nav {
-  width: 100%;
-  margin-top: 5vh;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav_list {
-  display: flex;
-}
-
-.nav_list_item {
-}
-
-.title {
-  background-color: var(--primary-nav-color);
-  color: var(--secondary-font-color);
-  display: inline-block;
-  position: absolute;
-  left: 5%;
-  bottom: 10%;
-  padding: 20px;
+.text-center {
   text-align: center;
 }
 
-.title_h1 {
+.about {
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 20vw;
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.title_h2 {
+.about_img_container {
+}
+
+.about_img {
+  clip-path: circle(38%);
+  width: 100%;
+  height: auto;
 }
