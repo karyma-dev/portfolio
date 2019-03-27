@@ -1,91 +1,36 @@
-.container {
-  margin: 0 5%;
+:root {
+  --primary-bg-color: #c4c4c4;
+  --primary-nav-color: #1f1f1f;
+  --primary-font-color: black;
+  --secondary-font-color: white;
 }
 
-.title {
-  margin-left: 10vw;
-  margin-bottom: 5vh;
+body {
+  background-color: var(--primary-bg-color);
+  color: black;
 }
 
-/* -Nav- */
+.hero {
+  background: url('../../images/laptop.jpg');
+  background-size: cover;
+  background-position: center top;
+  min-height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 72%, 0 90%);
+}
 
 .nav {
   position: fixed;
-  height: 50px;
   width: 100%;
+  margin-top: 10vh;
 }
 
 .nav_list {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  height: 100%;
 }
 
 .nav_list_item {
-  margin-left: 50px;
-}
-
-.nav_list_links {
-  color: white;
-}
-
-.nav_list_links:visited {
-  color: white;
-}
-
-/* -Header- */
-
-.header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #171717;
-  color: white;
-}
-
-.header_main {
-  margin-bottom: 2vh;
-}
-
-.header_secondary {
-}
-
-/* -Main- */
-
-.main {
-}
-
-/* -About- */
-
-.about {
-  margin-bottom: 10vh;
-}
-
-.about_title {
-}
-
-.about_paragraph_container {
-  display: flex;
-  align-items: center;
-}
-
-.about_image_container {
-}
-
-.about_image {
-  width: 20vw;
-  height: auto;
-  clip-path: circle(38%);
-}
-
-/* -Skills- */
-
-.skills {
-}
-
-.skills_list_container {
-  display: flex;
+  background-color: var(--primary-nav-color);
+  color: var(--secondary-font-color);
+  padding: 20px 50px;
 }
