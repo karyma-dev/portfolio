@@ -5,13 +5,36 @@
 body {
 }
 
-.container {
-  padding: 1%;
-}
-
 .text-center {
   text-align: center;
 }
+
+.right {
+  margin-left: 20vw;
+}
+
+/* Header Section */
+
+.header {
+}
+
+.header_title {
+}
+
+.header_description {
+}
+
+/* Nav Section */
+
+.nav {
+}
+
+.nav_list {
+}
+
+.nav_list_item {
+}
+/* About Section */
 
 .about {
   background-color: var(--primary-color);
@@ -36,13 +59,14 @@ body {
   height: auto;
 }
 
+/* Main Section */
+
 .main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 20vw;
   background-color: gray;
 }
 
@@ -128,7 +152,7 @@ body {
   }
 }
 
-/* Resume */
+/* Resume Section*/
 
 .resume {
   margin-top: 100px;
