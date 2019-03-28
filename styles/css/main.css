@@ -35,7 +35,6 @@ body {
 }
 
 .main {
-  background-color: pink;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -44,7 +43,8 @@ body {
   margin-left: 20vw;
 }
 
-/* Slideshow container */
+/* Carousel */
+
 .slideshow-container {
   max-width: 75vw;
   position: relative;
@@ -58,7 +58,6 @@ body {
   width: 100%;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -75,19 +74,16 @@ body {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -98,7 +94,6 @@ body {
   text-align: center;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -115,7 +110,6 @@ body {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
