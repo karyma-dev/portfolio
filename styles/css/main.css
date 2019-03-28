@@ -16,6 +16,12 @@ body {
 /* Header Section */
 
 .header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f2d2e;
 }
 
 .header_title {
@@ -27,9 +33,15 @@ body {
 /* Nav Section */
 
 .nav {
+  position: fixed;
+  top: 5%;
+  right: 0;
+  z-index: 10;
 }
 
 .nav_list {
+  display: flex;
+  background-color: gray;
 }
 
 .nav_list_item {
@@ -155,7 +167,6 @@ body {
 /* Resume Section*/
 
 .resume {
-  margin-top: 100px;
 }
 
 .resume_img {
