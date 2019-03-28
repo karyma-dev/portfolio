@@ -41,6 +41,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 20vw;
+  background-color: gray;
 }
 
 /* Carousel */
@@ -84,16 +85,6 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -133,4 +124,19 @@ body {
   to {
     opacity: 1;
   }
+}
+
+/* Resume */
+
+.resume {
+  margin-top: 100px;
+}
+
+.resume_img {
+  max-width: 100%;
+}
+
+.resume_img_container {
+  padding: 30px 60px;
+  background-color: white;
 }

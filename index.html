@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/css/reset.css" />
     <link rel="stylesheet" href="./styles/css/topography.css" />
     <link rel="stylesheet" href="./styles/css/main.css" />
+    <link rel="stylesheet" href="./styles/css/query.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -38,22 +39,20 @@
     </aside>
 
     <main class="main">
-      <section>
+      <section class="projects">
         <h3 class="text-center">Projects</h3>
+
         <div class="slideshow-container">
           <div class="mySlides fade">
             <img src="./images/preception.jpg" />
-            <div class="text">Caption Text</div>
           </div>
 
           <div class="mySlides fade">
             <img src="./images/preception.jpg" />
-            <div class="text">Caption Two</div>
           </div>
 
           <div class="mySlides fade">
             <img src="./images/preception.jpg" />
-            <div class="text">Caption Three</div>
           </div>
 
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -61,14 +60,19 @@
         </div>
         <br />
 
-        <div style="text-align:center">
+        <div class="text-center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div>
       </section>
 
-      <section></section>
+      <section class="resume">
+        <h3 class="text-center">Resume</h3>
+        <div class="resume_img_container">
+          <img class="resume_img" src="./images/resume.jpg" alt="resume" />
+        </div>
+      </section>
     </main>
 
     <script src="./main.js"></script>
