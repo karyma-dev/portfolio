@@ -39,6 +39,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: gray;
 }
 
 .about_img_container {
@@ -63,43 +64,39 @@ body {
 
 /* Carousel */
 
-.slideshow-container {
-  max-width: 75vw;
-  position: relative;
+.carousel_container {
 }
 
-.mySlides {
-  display: none;
+.carousel {
+  width: 70vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  border-radius: 5px;
 }
 
-.mySlides img {
+.carousel_slide {
+  width: 70vw;
+  flex-shrink: 0;
+}
+
+.carousel_img {
   width: 100%;
+  height: auto;
 }
 
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.carousel::-webkit-scrollbar {
+  height: 10px;
+}
+.carousel::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.carousel::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+.carousel_button {
 }
 
 .dot {
@@ -111,34 +108,9 @@ body {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  overflow: hidden;
 }
 
-.active,
 .dot:hover {
   background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
 }
