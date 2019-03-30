@@ -73,6 +73,24 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   border-radius: 5px;
+
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+}
+
+.carousel::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+.carousel::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .carousel_slide {
@@ -125,20 +143,4 @@ body {
 
 .carousel_arrow_left {
   left: 0;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  overflow: hidden;
-}
-
-.dot:hover {
-  background-color: #717171;
 }
