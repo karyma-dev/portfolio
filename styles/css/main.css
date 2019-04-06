@@ -23,18 +23,8 @@ body {
   background-color: black;
 }
 
-#name path:nth-child(1) {
+#firstName path:nth-child(1) {
   stroke-dasharray: 10px;
-}
-#name path:nth-child(2) {
-}
-#name path:nth-child(3) {
-}
-#name path:nth-child(4) {
-}
-#name path:nth-child(5) {
-}
-#name path:nth-child(6) {
 }
 
 /* About Section */
