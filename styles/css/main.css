@@ -53,6 +53,7 @@ path {
 
 .about_text {
   padding: 20px 30px;
+  text-indent: 30px;
 }
 
 .about_img_container {
@@ -66,6 +67,13 @@ path {
 }
 
 .about_nav {
+}
+
+.about_nav_list {
+}
+
+.about_nav_item {
+  display: inline-block;
 }
 
 /* Main Section */
