@@ -1,15 +1,13 @@
-:root {
-}
-
-body {
-}
-
 .text-center {
   text-align: center;
 }
 
 .right {
   margin-left: 20vw;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Header Section */
