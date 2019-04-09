@@ -51,6 +51,10 @@ path {
   background-color: white;
 }
 
+.about_text {
+  padding: 20px 30px;
+}
+
 .about_img_container {
   max-width: 500px;
 }
@@ -59,6 +63,9 @@ path {
   clip-path: circle(38%);
   width: 100%;
   height: auto;
+}
+
+.about_nav {
 }
 
 /* Main Section */
@@ -94,7 +101,7 @@ path {
 }
 
 .carousel::-webkit-scrollbar-thumb {
-  background: black;
+  background: white;
   border-radius: 10px;
 }
 
