@@ -26,7 +26,7 @@ body {
 path {
   stroke-dasharray: 100;
   fill: none;
-  animation: animate 10s forwards;
+  animation: animate 9s forwards;
 }
 
 @keyframes animate {
@@ -48,7 +48,7 @@ path {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background-color: white;
 }
 
 .about_img_container {
@@ -69,6 +69,7 @@ path {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 
 /* Carousel */
