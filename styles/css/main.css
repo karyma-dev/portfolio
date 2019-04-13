@@ -21,16 +21,27 @@ html {
   background-color: black;
 }
 
+#primary_title {
+  width: 375px;
+  height: 89px;
+}
+
+#secondary_title {
+  width: 557px;
+  height: 96px;
+  margin-top: 20px;
+}
+
 path {
   stroke-dasharray: 100;
   fill: none;
-  animation: animate 9s forwards;
+  animation: animate 6s forwards;
 }
 
 @keyframes animate {
   100% {
     fill: rgba(255, 255, 255, 1);
-    stroke-dasharray: 1300;
+    stroke-dasharray: 1200;
   }
 }
 
