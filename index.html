@@ -105,17 +105,27 @@
     </div>
   </header>
 
-  <nav class="nav bold">
-    <ul class="nav_list">
-      <li class="nav_list_item"><a href="#projects">About</a></li>
-      <li class="nav_list_item"><a href="#projects">Projects</a></li>
-      <li class="nav_list_item"><a href="./Resume.pdf" target="_blank">Resume</a></li>
-    </ul>
-  </nav>
+  <div class='menu'>
+    <span class='toggle'>
+      <i></i>
+      <i></i>
+      <i></i>
+    </span>
+    <div class='menuContent'>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Testimonial</li>
+        <li>About us</li>
+      </ul>
+    </div>
+  </div>
 
   <aside class="about">
 
     <div class="about_description">
+      <h3>About Me</h3>
       <p class="about_description_paragraph">Hello, my name is Kary. I am a FullStack Developer, but I specialize more
         towards front end. I am a graduate
         from BrainStation Coding Bootcamp located in Vancouver, BC. Before entering Web development, I was a renovation
@@ -170,6 +180,12 @@
   </main>
 
   <script src="./main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script>
+    $('.toggle').on('click', function () {
+      $('.menu').toggleClass('active');
+    });
+  </script>
 </body>
 
 </html>
