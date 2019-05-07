@@ -6,6 +6,10 @@
   margin-left: 20vw;
 }
 
+.space-between {
+  margin: 0 10px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -33,7 +37,7 @@ html {
 }
 
 path {
-  stroke-dasharray: 100;
+  stroke-dasharray: 180;
   fill: none;
   animation: animate 6s forwards;
 }
@@ -41,8 +45,12 @@ path {
 @keyframes animate {
   100% {
     fill: rgba(255, 255, 255, 1);
-    stroke-dasharray: 1200;
+    stroke-dasharray: 1500;
   }
+}
+
+.header_social i {
+  color: white;
 }
 
 /* About Section */
@@ -60,25 +68,36 @@ path {
   background-color: white;
 }
 
-.about_text {
-  padding: 20px 30px;
-  text-indent: 30px;
-}
-
 .about_img_container {
-  max-width: 500px;
+  max-width: 700px;
+  clip-path: circle(38%);
 }
 
 .about_img {
-  clip-path: circle(38%);
   width: 100%;
   height: auto;
 }
 
+.about_skills {
+  margin: 50px 0px;
+}
+
+.about_skills_title {
+  margin-bottom: 10px;
+}
+
+.about_skills_list {
+  display: inline-block;
+}
+
 .about_nav {
+  margin: 10px 0;
+  width: 100%;
 }
 
 .about_nav_list {
+  display: flex;
+  justify-content: space-around;
 }
 
 .about_nav_item {
@@ -102,7 +121,7 @@ path {
 }
 
 .carousel {
-  width: 70vw;
+  width: 65vw;
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -127,7 +146,7 @@ path {
 }
 
 .carousel_slide {
-  width: 70vw;
+  width: 65vw;
   flex-shrink: 0;
   position: relative;
 }

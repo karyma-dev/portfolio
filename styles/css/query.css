@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1300px) {
-  .about {
+  /* .about {
     width: 30vw;
   }
 
@@ -9,11 +9,11 @@
 
   .slideshow-container {
     max-width: 65vw;
-  }
+  } */
 }
 
 @media only screen and (max-width: 920px) {
-  .about {
+  /* .about {
     position: static;
     width: 100%;
     height: auto;
@@ -25,5 +25,5 @@
 
   .slideshow-container {
     max-width: 95vw;
-  }
+  } */
 }
