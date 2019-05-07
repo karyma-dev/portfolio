@@ -4,14 +4,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
 .bold {
   font-weight: 700;
+}
+
+@media only screen and (max-width: 580px) { 
+  html {
+    font-size: 0.9rem;
+  }
 }
