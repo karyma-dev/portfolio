@@ -1,17 +1,24 @@
-.text-center {
-  text-align: center;
-}
-
-.right {
-  margin-left: 20vw;
-}
-
-.space-between {
-  margin: 0 10px;
-}
-
 html {
   scroll-behavior: smooth;
+}
+
+/* Nav */
+
+.nav {
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+  top: 10%;
+  right: 0;
+}
+
+.nav_list {
+  
+}
+
+.nav_list_item {
+  display: inline-block;
+  padding: 10px 20px;
 }
 
 /* Header Section */
@@ -26,20 +33,18 @@ html {
 }
 
 #primary_title {
-  width: 375px;
-  height: 89px;
+  width: 1000px;
 }
 
 #secondary_title {
-  width: 557px;
-  height: 96px;
-  margin-top: 20px;
+  width: 1000px;
+  margin: 30px 0;
 }
 
 path {
   stroke-dasharray: 180;
   fill: none;
-  animation: animate 6s forwards;
+  animation: animate 5s forwards;
 }
 
 @keyframes animate {
@@ -56,144 +61,38 @@ path {
 /* About Section */
 
 .about {
-  height: 100vh;
-  width: 20vw;
-  position: fixed;
-  top: 0;
-  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: white;
 }
 
 .about_img_container {
-  max-width: 700px;
-  clip-path: circle(38%);
+  min-width: 500px;
 }
 
 .about_img {
   width: 100%;
-  height: auto;
+  
 }
 
-.about_skills {
-  margin: 50px 0px;
+.about_description {
+  margin: 0 50px;
 }
 
-.about_skills_title {
-  margin-bottom: 10px;
+.about_description_paragraph {
+  text-indent: 50px
 }
 
-.about_skills_list {
-  display: inline-block;
-  margin: 0 20px;
+.about_social {
+  margin-top: 20px;
 }
-
-.about_nav {
-  margin: 10px 0;
-  width: 100%;
-}
-
-.about_nav_list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.about_nav_item {
-  display: inline-block;
-}
-
 /* Main Section */
 
-.main {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
+/* Universal Classes */
+
+.text-center {
+  text-align: center;
 }
 
-/* Carousel */
-
-.carousel_container {
-}
-
-.carousel {
-  width: 65vw;
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  border-radius: 5px;
-
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-points-x: repeat(70vw);
-  scroll-snap-type: mandatory;
-}
-
-.carousel::-webkit-scrollbar {
-  height: 10px;
-}
-
-.carousel::-webkit-scrollbar-thumb {
-  background: white;
-  border-radius: 10px;
-}
-
-.carousel::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.carousel_slide {
-  width: 65vw;
-  flex-shrink: 0;
-  position: relative;
-}
-
-.carousel_img {
-  width: 100%;
-  height: auto;
-}
-
-.carousel_description {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  background-color: lightgrey;
-  transition: 0.5s ease;
-}
-
-.carousel_description:hover {
-  opacity: 0.8;
-}
-
-.carousel_arrow {
-  position: absolute;
-  top: 50%;
-  margin-top: -35px;
-  padding: 20px;
-  color: white;
-  font-size: 30px;
-  transition: 0.5s ease;
-  user-select: none;
-}
-
-.carousel_arrow:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.carousel_arrow_right {
-  right: 0;
-}
-
-.carousel_arrow_left {
-  left: 0;
+.space-between {
+  margin: 0 10px;
 }

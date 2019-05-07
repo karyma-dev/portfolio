@@ -4,12 +4,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.bold {
-  font-weight: 700;
+p {
+  font-size: 0.9rem;
 }
 
-@media only screen and (max-width: 580px) { 
-  html {
-    font-size: 0.9rem;
-  }
+.bold {
+  font-weight: 800;
 }
