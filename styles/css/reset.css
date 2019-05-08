@@ -1,15 +1,15 @@
 * {
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
   outline: none;
+  overflow-x: hidden;
 }
 
 html {
   font-size: 18px;
 }
+
 
 a {
   text-decoration: none;

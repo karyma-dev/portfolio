@@ -144,9 +144,6 @@ path {
 }
 
 .about_description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin: 20px 40px;
 }
 
@@ -154,15 +151,22 @@ path {
   margin: 20px 0;
 }
 
-.about_img_container {
-  min-width: 500px;
-}
-
 .about_img {
   width: 100%;
+  height: auto;
+}
+
+.about_skills_list {
+  margin: 20px 30px 0 0;
+  display: inline-block;
 }
 
 /* Main Section */
+
+.main {
+  height: 100vh;
+  background-color: black;
+}
 
 /* Universal Classes */
 
