@@ -2,14 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.wrapper {
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100vh;
-  overflow-y: scroll;
-  background-color: black;
-}
-
 /* Menu */
 
 .menu {
@@ -84,7 +76,7 @@ html {
   color: white;
   cursor: pointer;
   opacity: 0;
-  transition: opacity 0.1s ease;
+  transition: opacity 0.2s ease;
 }
 
 .menu .menuContent ul li:nth-child(2) {
@@ -129,7 +121,17 @@ path {
 }
 
 .header_social i {
+  margin-right: 10px;
   color: white;
+}
+
+.header_social_link {
+  display: flex;
+  align-items: center;
+}
+
+.header_social_link:nth-child(2) {
+  margin: 20px 0;
 }
 
 /* About Section */
@@ -164,10 +166,19 @@ path {
 
 /* Universal Classes */
 
+.wrapper {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: black;
+}
+
+.color-white {
+  color: white;
+}
+
 .text-center {
   text-align: center;
 }
 
-.space-between {
-  margin: 0 10px;
-}
