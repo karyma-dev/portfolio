@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h3 {
+  margin-bottom: 10px;
+}
+
 /* Menu */
 
 .menu {
@@ -138,24 +142,24 @@ path {
 
 .about {
   display: flex;
-  align-items: center;
   position: relative;
   background-color: white;
   z-index: 1;
-  padding: 20px 20px;
 }
 
 .about_description {
-  flex: 2;
+  flex: 1;
+  margin: 20px;
 }
 
 .about_description_paragraph {
-  margin: 20px 0;
+  text-indent: 2rem;
 }
 
 .about_img_container {
   flex: 1;
-  margin-left: 20px;
+  max-width: 500px;
+  margin: 20px 20px 0 0;
 }
 
 .about_img {
@@ -166,20 +170,20 @@ path {
 .about_skills {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .about_skills_container {
   display: flex;
-  margin-top: 20px;
 }
 
 .about_skills_list {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
-/* Main Section */
+/* Section*/
 
-.main {
+section {
   height: 100vh;
   background-color: black;
 }
