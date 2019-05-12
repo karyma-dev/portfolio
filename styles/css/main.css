@@ -142,7 +142,6 @@ path {
 
 .about {
   display: flex;
-  position: relative;
   background-color: white;
   z-index: 1;
 }
@@ -152,9 +151,6 @@ path {
   margin: 20px;
 }
 
-.about_description_paragraph {
-  text-indent: 2rem;
-}
 
 .about_img_container {
   flex: 1;
@@ -181,12 +177,28 @@ path {
   margin-right: 20px;
 }
 
-/* Section*/
+/*Projects*/
 
 section {
-  height: 100vh;
   background-color: black;
 }
+
+.projects_title {
+  color: white;
+}
+
+.projects_container {
+  display: inline-block;
+  width: 500px;
+  height: auto;
+  color: white;
+}
+
+.projects img {
+  width: 100%;
+  height: auto;
+}
+
 
 /* Universal Classes */
 
@@ -201,8 +213,3 @@ section {
 .color-white {
   color: white;
 }
-
-.text-center {
-  text-align: center;
-}
-

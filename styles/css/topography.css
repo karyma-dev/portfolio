@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -7,6 +8,12 @@ body {
 p {
   font-size: 0.9rem;
   line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  font-size: 4rem;
 }
 
 h3 {
