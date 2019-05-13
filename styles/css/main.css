@@ -179,7 +179,7 @@ path {
 
 /*Projects*/
 
-section {
+.projects {
   background-color: black;
 }
 
@@ -188,17 +188,45 @@ section {
 }
 
 .projects_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.project {
   display: inline-block;
   width: 500px;
   height: auto;
   color: white;
 }
 
-.projects img {
+.project:nth-child(1){
+  margin-right: 20px;
+}
+
+.project img {
   width: 100%;
   height: auto;
 }
 
+/* Footer */
+
+.footer {
+  background-color: white;
+  height: 100px;
+}
+
+.footer_social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer_social_link:nth-child(2) {
+  margin: 0 10px;
+}
 
 /* Universal Classes */
 
