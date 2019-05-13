@@ -17,7 +17,7 @@
 
 <body>
   <div class="wrapper">
-    <header class="header">
+    <header class="header" id="header">
       <div>
         <svg id="primary_title" width="507" height="140" viewBox="0 0 507 140" fill="none"
           xmlns="http://www.w3.org/2000/svg">
@@ -123,14 +123,13 @@
       </span>
       <div class='menuContent'>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Project</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Project</a></li>
         </ul>
       </div>
     </div>
 
-    <main class="about">
+    <main class="about" id="about">
       <div class="about_description">
         <h3>About Me</h3>
         <p class="about_description_paragraph">Hello, my name is Kary. I am a FullStack Developer, but I specialize more
@@ -183,13 +182,14 @@
       </div>
     </main>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <h1 class="projects_title">Projects</h1>
 
       <div class="projects_container">
         <div class="project">
           <img src="./images/preception.jpg" alt="">
           <h4>Preception</h4>
+          <p></p>
         </div>
 
         <div class="project">

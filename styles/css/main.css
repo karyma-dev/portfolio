@@ -1,9 +1,18 @@
-html {
-  scroll-behavior: smooth;
-}
 
 h3 {
   margin-bottom: 10px;
+}
+
+.color-white {
+  color: white;
+}
+
+.wrapper {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: black;
 }
 
 /* Menu */
@@ -81,6 +90,10 @@ h3 {
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.2s ease;
+}
+
+.menu .menuContent a {
+  color: white;
 }
 
 .menu .menuContent ul li:nth-child(2) {
@@ -192,6 +205,7 @@ path {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
+  margin-bottom: 50px;
 }
 
 .project {
@@ -201,7 +215,7 @@ path {
   color: white;
 }
 
-.project:nth-child(1){
+.project:nth-child(1){  
   margin-right: 20px;
 }
 
@@ -228,16 +242,3 @@ path {
   margin: 0 10px;
 }
 
-/* Universal Classes */
-
-.wrapper {
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100vh;
-  overflow-y: scroll;
-  background-color: black;
-}
-
-.color-white {
-  color: white;
-}
