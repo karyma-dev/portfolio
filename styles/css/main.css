@@ -213,6 +213,7 @@ path {
   width: 500px;
   height: auto;
   color: white;
+  text-align: center; 
 }
 
 .project:nth-child(1){  
@@ -222,16 +223,12 @@ path {
 .project a {
   color: white;
   display: block;
-  margin: 5px 0;
+  margin: 5px 0 50px 0;
 }
 
 .project img {
   width: 100%;
   height: auto;
-}
-
-.project p {
-  margin-bottom: 50px;
 }
 
 /* Footer */
