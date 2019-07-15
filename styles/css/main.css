@@ -122,20 +122,19 @@ h3 {
 #secondary_title {
   width: auto;
   margin: 30px 0 60px 0;
-}
+} 
 
-.header_social i {
-  margin-right: 10px;
-  color: white;
-}
-
-.header_social_link {
+.header_social {
   display: flex;
-  align-items: center;
 }
 
-.header_social_link:nth-child(2) {
-  margin: 20px 0;
+.header_social :nth-child(2) {
+  margin: 0 20px;
+}
+
+.header_social_icon {
+  font-size: 3em; 
+  color: white;
 }
 
 /* About Section */
@@ -232,6 +231,11 @@ h3 {
   height: 100%;
 }
 
-.footer_social_link:nth-child(2) {
-  margin: 0 10px;
+.footer_social_icon {
+  font-size: 3em; 
+  color: black;
+}
+
+.footer_social :nth-child(2) {
+  margin: 0 20px;
 }
