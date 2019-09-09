@@ -1,0 +1,44 @@
+/* Header */
+
+.header {
+  display: flex;
+  height: 100vh;
+}
+
+.header_left {
+  background-color: white;
+  flex: 1;
+}
+
+.header_right {
+  background-image: url('../src/img/hero.png');
+  flex: 3;
+}
+
+.header_title {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+
+.header_nav {
+  margin-top: 20px;
+}
+
+.header_nav_button {
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin-right: 20px;
+}
+
+.header_nav_button:hover {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+/* About */
+
+.about {
+  background-color: #1A1A1A;
+  height: 100vh;
+}
