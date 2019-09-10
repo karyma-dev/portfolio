@@ -12,6 +12,7 @@
 
 .header_right {
   background-image: url('../src/img/hero.png');
+  background-position: top center;
   flex: 3;
 }
 
@@ -41,4 +42,18 @@
 .about {
   background-color: #1A1A1A;
   height: 100vh;
+}
+
+/* Project */
+
+.project {
+  background-color: #D0D0D0;
+  height: 100vh;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1A1A1A;
+  height: 20vh;
 }
