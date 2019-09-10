@@ -37,6 +37,17 @@
   color: white;
 }
 
+.header_social {
+  position: absolute;
+  right: 1%;
+  bottom: 3%;
+}
+
+.header_social_icon {
+  width: 30px;
+  margin-right: 5px;
+}
+
 /* About */
 
 .about {
@@ -56,4 +67,12 @@
 .footer {
   background-color: #1A1A1A;
   height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_icon {
+  width: 50px;
+  color: #D0D0D0;
+  margin-right: 20px;
 }
