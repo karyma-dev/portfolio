@@ -13,6 +13,8 @@
 .header_right {
   background-image: url('../src/img/hero.png');
   background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
   flex: 3;
 }
 
@@ -37,22 +39,28 @@
   color: white;
 }
 
-.header_social {
-  position: absolute;
-  right: 1%;
-  bottom: 3%;
-}
-
-.header_social_icon {
-  width: 30px;
-  margin-right: 5px;
-}
-
 /* About */
 
 .about {
   background-color: #1A1A1A;
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 100px 10%;
+}
+
+.about_separator {
+  background-color: white;
+  width: 20px;
+  height: 300px;
+  margin: 0 10%;
+}
+
+.about_skills_list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
 }
 
 /* Project */
