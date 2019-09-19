@@ -1,26 +1,16 @@
 /* Header */
 
 .header {
-  display: flex;
-  height: 100vh;
-}
-
-.header_left {
-  background-color: white;
-  flex: 1;
-}
-
-.header_right {
   background-image: url('../src/img/hero.png');
-  background-position: top center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  flex: 3;
+  height: 100vh;
 }
 
 .header_title {
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
   left: 5%;
 }
 
