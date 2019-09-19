@@ -7,9 +7,10 @@
     background-color: white;
     text-align: center;
     width: 100%;
-    padding: 0 25px 25px 25px;
+    padding-bottom: 30px;
     left: 0;
     bottom: 0;
+    right: 0;
   }
 
   .header_left {
@@ -17,3 +18,26 @@
   }
 }
 
+@media only screen and (max-width: 920px) {
+  .about {
+    display: block;
+  }
+
+  .about_left {
+    text-align: center;
+  }
+
+  .about_left_image {
+    width: 200px;
+  }
+
+  .about_separator {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 12px;
+  }
+}

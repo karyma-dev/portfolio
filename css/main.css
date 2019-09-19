@@ -67,7 +67,27 @@
 
 .project {
   background-color: #D0D0D0;
-  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5% 0;
+}
+
+.project_container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0;
+}
+
+.project_image {
+  width: 500px;
+}
+
+.project_links {
+  margin-top: 20px;
+  font-weight: 700;
 }
 
 /* Footer */
