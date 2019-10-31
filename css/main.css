@@ -26,6 +26,12 @@
   color: white;
 }
 
+.header_title_container {
+  background-color: #1A1A1A;
+  color: white;
+  padding: 20px;
+}
+
 
 /* About */
 
@@ -48,7 +54,7 @@
 .about_skills_list {
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 /* Project */
