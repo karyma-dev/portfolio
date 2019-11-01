@@ -34,8 +34,17 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 330px) {
+  .header_title {
+    left: 0;
+  }
+
+  .header_nav {
+    display: flex;
+    justify-content: center;
+  }
+
   .header_title_container {
-    width: 80%;
+    text-align: center;
   }
 }
