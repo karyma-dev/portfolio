@@ -40,6 +40,25 @@
   font-size: 5rem;
 }
 
+.arrow {
+  height: 10vh;
+}
+
+.main {
+  height: 100vh;
+  background-color: pink;
+}
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.footer-icon {
+  margin-right: 10px;
+  height: 40px;
+}
 
 .active {
   font-weight: bold;
