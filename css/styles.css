@@ -45,6 +45,7 @@
 
 .arrow {
   height: 10vh;
+  text-align: center;
 }
 
 .main {
@@ -59,12 +60,45 @@
 .main-project {
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 .main-project_image {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.main-project_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #202020;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+
+.main-project:hover .main-project_description {
+  opacity: 0.99;
+}
+
+.main-project_link {
+  color: white;
+  transition: 0.3s;
+}
+
+.main-project_link:hover {
+  font-weight: bold;
 }
 
 .footer {
@@ -90,9 +124,4 @@
 
 .active {
   font-weight: bold;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
 }
