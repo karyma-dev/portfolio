@@ -1,0 +1,49 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 70px;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.navbar-spacer {
+  width: 20%;
+}
+
+.navbar-logo {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-logo_link {
+  display: flex;
+}
+
+.navbar-logo_image {
+}
+
+#navbar-toggler {
+  z-index: 10;
+  display: none;
+}
+
+#navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  list-style: none;
+}
+
+.navbar-links_item:nth-of-type(2) {
+  margin: 0 20px;
+}
+
+.current {
+  font-weight: bold;
+}
