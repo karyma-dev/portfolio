@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kary Ma | Full Stack Developer</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
-  <link rel="icon" href="./img/logo.svg">
+  <link rel="icon" href="./src/img/logo.svg">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/styles.css">
 
@@ -17,12 +17,14 @@
   <nav class="navbar">
     <div class="navbar-spacer"></div>
     <div class="navbar-logo">
-      <img class="navbar-logo_image" src="./src/img/logo.svg" />
+      <a href="./index.html">
+        <img class="navbar-logo_image" src="./src/img/logo.svg" />
+      </a>
     </div>
     <ul class="navbar-links">
-      <li class="navbar-links_item active">Work</li>
-      <li class="navbar-links_item">About</li>
-      <li class="navbar-links_item">Resume</li>
+      <li class="navbar-links_item active"><a href="./index.html">WORK</a></li>
+      <li class="navbar-links_item"><a href="./about.html">ABOUT</a></li>
+      <li class="navbar-links_item"><a href="./src/resume.pdf" target="_blank">RESUME</a></li>
     </ul>
   </nav>
   <header id="typedtext" class="header"></header>
@@ -31,12 +33,32 @@
     <img src="./src/img/arrow.svg" />
   </div>
 
-  <main class="main"></main>
+  <main class="main">
+    <div class="row">
+      <div class="project-one projects">
+      </div>
+      <div class="project-two projects"></div>
+    </div>
+    <div class="row">
+      <div class="project-three projects"></div>
+      <div class="project-four projects"></div>
+    </div>
+  </main>
+
   <footer class="footer">
-    <img class="footer-icon" src="./src/img/social_icon/linkedin.svg" />
-    <img class="footer-icon" src="./src/img/social_icon/github.svg" />
-    <img class="footer-icon" src="./src/img/social_icon/email.svg" />
+    Always open to new opportunities, feel free to reach out to me at <strong>karyma101@hotmail.com</strong>
   </footer>
+
+  <div class="social">
+    <a href="https://www.linkedin.com/in/kary-ma/" target="_blank"><img class="social-icon"
+        src="./src/img/social_icon/linkedin.svg" alt="linkedin icon" /></a>
+    <a href="https://github.com/karyma101" target="_blank">
+      <img class="social-icon" src="./src/img/social_icon/github.svg" alt="github icon" />
+    </a>
+    <a href="mailto:karyma101@hotmail.com" target="_top">
+      <img class="social-icon" src="./src/img/social_icon/email.svg" alt="email icon" />
+    </a>
+  </div>
   <script src="main.js"></script>
 </body>
 
