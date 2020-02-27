@@ -91,12 +91,34 @@
 
 .skills {
   display: flex;
+  justify-content: space-around;
 }
 
 .skills-list {
-  padding: 0 0 0 50px;
+  width: 100px;
 }
 
 .skills-list_item {
   text-transform: uppercase;
+}
+
+.footer {
+  margin: 50px;
+  font-size: 1rem;
+}
+
+.social {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.social-icon {
+  margin-right: 10px;
+  transition: 0.3s;
+  height: 40px;
+}
+
+.social-icon:hover {
+  height: 50px;
 }
