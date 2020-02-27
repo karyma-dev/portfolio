@@ -1,9 +1,9 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
   "Hi, I'm Kary.",
-  "I'm a full stack developer passionate about creating simple, scalable and efficient solutions."
+  "I'm a full stack developer passionate about creating efficient, and scalable solutions."
 );
-var iSpeed = 70; // time delay of print out
+var iSpeed = 50; // time delay of print out
 var iIndex = 0; // start printing array at this posision
 var iArrLength = aText[0].length; // the length of the text array
 var iScrollAt = 20; // start scrolling up at this many lines

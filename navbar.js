@@ -11,3 +11,16 @@ function menuToggler() {
   }
 }
 
+window.addEventListener('resize', function() {
+  var toggler = document.getElementById('navbar-toggler')
+  var menu = document.getElementById('navbar-links')
+
+  if(window.innerWidth > 768) {
+    document.getElementById('navbar-links').style.display = 'flex'
+    toggler.classList.remove('is-active')
+  }
+  if(window.innerWidth <= 768) {
+    document.getElementById('navbar-links').style.display = 'none'
+  }
+})
+
