@@ -36,6 +36,7 @@
   justify-content: center;
   width: 20%;
   list-style: none;
+  background-color: white;
 }
 
 .navbar-links_item:hover {
