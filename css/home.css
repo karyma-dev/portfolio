@@ -99,13 +99,17 @@
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 40px;
 }
 
 .main-project:hover .main-project_description {
   opacity: 0.99;
+}
+
+.main-project_paragraph {
+  padding-bottom: 20px;
 }
 
 .main-project_link {

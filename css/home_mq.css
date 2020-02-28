@@ -38,7 +38,7 @@
   }
 
   .header {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .social-icon {
@@ -47,11 +47,24 @@
 }
 
 @media only screen and (max-width: 425px) {
+  html {
+    font-size: 14px;
+  }
+
   .header {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .arrow-image {
+    height: 20px;
   }
 
   .social-icon {
-    height: 20px;
+    height: 25px;
+  }
+
+  .footer {
+    text-align: center;
+    padding-bottom: 30px;
   }
 }
