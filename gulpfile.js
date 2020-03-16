@@ -7,9 +7,9 @@ function css(cb) {
   gulp.src([
     './css/index.css'
   ])
-    .pipe(concat('index.min.css'))
+    .pipe(concat('style.css'))
     .pipe(cssMin())
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./dist'));
   cb();
 };
 
@@ -17,9 +17,9 @@ function javascript(cb) {
   gulp.src([
     './js/typewriter.js'
   ])
-    .pipe(concat('index.min.js'))
+    .pipe(concat('main.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('./js'))
+    .pipe(gulp.dest('./dist'))
   cb();
 };
 

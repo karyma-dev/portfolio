@@ -1,0 +1,1 @@
+!function(){var t=0,n="Hi my name is Kary. I'm a frontend developer passionate about creating fast and responsive applications.",a=50;!function e(){t<n.length&&(document.getElementById("typedtext").innerHTML+=n.charAt(t),t++,setTimeout(e,a))}()}();
