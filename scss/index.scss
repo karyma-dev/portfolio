@@ -1,9 +1,10 @@
 //
-@import './abstracts/mixins';
 @import './base/reset.scss';
+@import './base/typography.scss';
+@import './abstracts/mixins';
 
 //
-@import './components/buttons';
+@import './components/slider';
 
 // 
 @import './components/header';
@@ -12,3 +13,6 @@
 @import './components/about';
 @import './components/projects';
 @import './components/footer';
+
+//
+@import './theme/darkmode';

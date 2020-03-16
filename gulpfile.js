@@ -15,7 +15,8 @@ function css(cb) {
 
 function javascript(cb) {
   gulp.src([
-    './js/typewriter.js'
+    './js/typewriter.js',
+    './js/slider.js'
   ])
     .pipe(concat('main.js'))
     .pipe(uglify())
