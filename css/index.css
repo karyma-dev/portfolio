@@ -89,9 +89,14 @@ input:checked + .slider:before {
 
 .header {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
+}
+
+#typedtext {
+  position: fixed;
+  padding: 50px;
 }
 
 .nav {
@@ -101,6 +106,8 @@ input:checked + .slider:before {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 2px -2px gray;
 }
 .nav-logo {
   justify-self: center;
@@ -108,6 +115,60 @@ input:checked + .slider:before {
 .nav-slider {
   justify-self: end;
   margin-right: 10px;
+}
+
+.project {
+  position: relative;
+  height: 500px;
+}
+.project-description {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  color: white;
+  background-color: black;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.project-description:hover {
+  opacity: 0.9;
+}
+.project a {
+  color: white;
+}
+
+#vcs {
+  background-image: url("./img/vcs.png");
+  background-size: cover;
+}
+
+.about {
+  background-color: white;
+  position: relative;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-image {
+  width: 100%;
+  height: auto;
+}
+.about-title {
+  align-self: flex-start;
+  margin: 10px 0;
+  border-bottom: 1px solid gray;
+}
+.about-description {
+  text-indent: 30px;
+}
+.about-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .dark-mode {
