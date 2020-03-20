@@ -37,6 +37,11 @@ h2 {
     font-size: 16px;
   }
 }
+@media all and (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+}
 .switch {
   position: relative;
   display: inline-block;
@@ -133,6 +138,11 @@ input:checked + .slider:before {
     padding: 100px;
   }
 }
+@media all and (min-width: 1024px) {
+  #typedtext {
+    padding: 200px;
+  }
+}
 .project {
   position: relative;
   height: 500px;
@@ -175,31 +185,36 @@ input:checked + .slider:before {
 }
 .about-image {
   width: 100%;
-  height: auto;
 }
-.about-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.about-title {
-  align-self: flex-start;
+.about-description_title {
   margin: 30px 0 10px 0;
-  text-transform: uppercase;
-}
-.about-description {
-  text-indent: 15px;
 }
 .about-list {
   display: flex;
   justify-content: space-between;
   padding-left: 17px;
-  text-transform: lowercase;
+}
+
+@media all and (min-width: 1024px) {
+  .about-container {
+    display: flex;
+  }
+  .about-image {
+    width: auto;
+    max-height: 300px;
+    order: 2;
+  }
+  .about-description_container {
+    order: 1;
+    margin-right: 100px;
+  }
+  .about-description_title:nth-child(1) {
+    margin-top: 0;
+  }
 }
 .footer {
   height: 50px;
-  background-color: gray;
+  background-color: #DCDCDC;
   display: flex;
   justify-content: center;
   align-items: center;

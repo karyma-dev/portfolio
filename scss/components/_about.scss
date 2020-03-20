@@ -5,35 +5,39 @@
 
   &-image {
     width: 100%;
-    height: auto;
   }
 
-  &-container {
-    width: 100%;
-    @include flex($flex-direction: column, $justify-content: space-around);
-  }
-  
-  &-title {
-    align-self: flex-start;
+  &-description_title {
     margin: 30px 0 10px 0;
-    text-transform: uppercase;
-  }
-
-  &-description {
-    text-indent: 15px;
   }
 
   &-list {
     @include flex($justify-content: space-between);
     padding-left: 17px;
-    text-transform: lowercase;
+  }
+}
 
-    &_container {
-
+@media all and (min-width: 1024px) {
+  .about {
+    &-container {
+      @include flex();
     }
 
-    &_item {
+    &-image {
+      width:  auto;
+      max-height: 300px;
+      order: 2;
+    }
 
+    &-description {
+      &_container {
+      order: 1;
+      margin-right: 100px;
+      }
+
+      &_title:nth-child(1) {
+        margin-top: 0;
+      }
     }
   }
 }
