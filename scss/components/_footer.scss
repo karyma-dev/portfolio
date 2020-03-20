@@ -1,3 +1,11 @@
 .footer {
-  
+  height: 50px;
+  background-color: #F8F8F8;
+  @include flex($justify-content: center, $align-items: center);
+
+  &-icon {
+    &:nth-child(2) {
+      margin: 0 10px;
+    }
+  }
 }

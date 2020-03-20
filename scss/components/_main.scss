@@ -7,6 +7,8 @@
     position: absolute;
     top: 0;
     height: 100%;
+    width: 100%;
+    padding: 0 30px;
     color: white;
     background-color: black;
     opacity: 0;
@@ -25,4 +27,12 @@
 #vcs {
   background-image: url('./img/vcs.png');
   background-size: cover;
+}
+
+@media all and (min-width:768px) {
+  .project {
+    &-description {
+      padding: 0 100px;
+    }
+  }
 }

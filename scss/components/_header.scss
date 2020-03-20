@@ -9,3 +9,31 @@
   position: fixed;
   padding: 50px;
 }
+
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 2px -2px gray;
+
+  &-logo {
+    justify-self: center;
+  }
+
+  &-slider {
+    justify-self: end;
+    margin-right: 10px;
+  }
+}
+
+@media all and (min-width:768px) {
+  #typedtext {
+    padding: 100px;
+  }
+}
