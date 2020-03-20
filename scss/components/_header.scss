@@ -7,7 +7,7 @@
 
 #typedtext {
   position: fixed;
-  padding: 50px;
+  padding: 15%;
 }
 
 .nav {
@@ -29,17 +29,5 @@
   &-slider {
     justify-self: end;
     margin-right: 10px;
-  }
-}
-
-@media all and (min-width:768px) {
-  #typedtext {
-    padding: 100px;
-  }
-}
-
-@media all and (min-width: 1024px) {
-  #typedtext {
-    padding: 200px;
   }
 }

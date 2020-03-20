@@ -1,4 +1,6 @@
 function toggleDarkmode(){
-  var element = document.body;
-  element.classList.toggle("dark-mode");
+  document.body.classList.toggle("dark-mode");
+  document.querySelector(".about").classList.toggle("dark-mode");
+  document.querySelector(".nav").classList.toggle("dark-header");
+  document.querySelector(".footer").classList.toggle("dark-header");
 }

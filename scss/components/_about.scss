@@ -20,7 +20,7 @@
 @media all and (min-width: 1024px) {
   .about {
     &-container {
-      @include flex();
+      @include flex($justify-content: center);
     }
 
     &-image {
@@ -37,6 +37,16 @@
 
       &_title:nth-child(1) {
         margin-top: 0;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 2000px) {
+  .about {
+    &-description {
+      &_container {
+        width: 50%;
       }
     }
   }
