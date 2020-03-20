@@ -1,7 +1,8 @@
 .project {
   position: relative;
   height: 500px;
-  
+  background-size: cover;
+  background-position: center center;
 
   &-description {
     position: absolute;
@@ -26,7 +27,19 @@
 
 #vcs {
   background-image: url('./img/vcs.png');
-  background-size: cover;
+}
+
+#meFit {
+  background-image: url('./img/mefit.png');
+  background-position: center right;
+}
+
+#weather-app {
+  background-image: url('./img/weather_app.png');
+}
+
+#preception {
+  background-image: url('./img/preception.png');
 }
 
 @media all and (min-width:768px) {

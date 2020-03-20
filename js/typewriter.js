@@ -1,6 +1,6 @@
 (function () {
   var i = 0;
-  var txt = "Hello! I'm Kary, a full stack developer passionate about creating fast and responsive applications.";
+  var txt = "Hello! I'm Kary, a full stack developer passionate about creating high performing and responsive applications.";
   var speed = 50;
   
   function typeWriter() {
