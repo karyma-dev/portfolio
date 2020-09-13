@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import { normalize } from 'polished'
-import { typeScale } from './typography'
+import { typeScale, primaryFont } from './typography'
+import { defaultTheme } from './themes'
 
 export const GlobalStyle = createGlobalStyle`
     ${normalize()}
@@ -9,9 +10,16 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-size: 16px;
     }
+
+    body {
+        background-color: ${defaultTheme.primaryBackgroundColor};
+    }
       
     *, *:before, *:after {
         box-sizing: inherit;
+        font-family: ${primaryFont};
+        color: ${defaultTheme.primaryTextColor};
+        font-weight: 300;
     }
 
     h1 {
