@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
         font-family: ${primaryFont};
         color: ${defaultTheme.primaryTextColor};
         font-weight: 300;
+        z-index: 100;
     }
 
     h1 {

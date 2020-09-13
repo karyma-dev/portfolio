@@ -10,19 +10,16 @@ const Background = styled.div`
         linear-gradient(to bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 1)),
         url(${img}) no-repeat bottom left / cover;
     position: relative;
+    z-index: 50;
 `
 
 const Title = styled.h1`
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     left: 5%;
     font-size: 3rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     width: 60%;
-`
-
-const Bold = styled.strong`
-    font-weight: 700;
 `
 
 const Header = () => {
@@ -31,8 +28,8 @@ const Header = () => {
             <Title>
                 <Typewriter
                     onInit={(typewriter) => {
-                        typewriter.changeDelay(50)
-                            .typeString("Hey I am Kary")
+                        typewriter.changeDelay(75)
+                            .typeString("Hey I am Kary.")
                             .pauseFor(2000)
                             .deleteAll()
                             .typeString("I am a full stack developer passionate about creating scalable and efficient solutions.")
