@@ -15,9 +15,8 @@ const Background = styled.div`
 
 const Title = styled.h1`
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
     left: 5%;
-    font-size: 3rem;
     letter-spacing: 0.5px;
     width: 60%;
 `
