@@ -10,7 +10,7 @@ const Navbar = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 50px 50px;
+    padding: 50px 5%;
 `
 
 const Nav = () => {

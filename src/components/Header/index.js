@@ -18,16 +18,7 @@ const Title = styled.h1`
     top: 60%;
     letter-spacing: 0.5px;
     line-height: 1.2;
-    width: 80%;
-    padding: 0 50px;
-
-    @media (max-width: 1440px) {
-        width: 80%;
-    }
-
-    @media (max-width: 768px) {
-        width: 100%;
-    }
+    padding: 0 10%;
 
     @media (max-width: 500px) {
         top: 30%;
