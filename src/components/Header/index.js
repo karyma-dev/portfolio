@@ -32,7 +32,7 @@ const Header = () => {
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter.changeDelay(1)
-                            .typeString("Hey I am <strong>Kary</strong>.<br/> I am a full stack developer passionate about creating scalable and efficient solutions.")
+                            .typeString("Hey I am <strong>Kary</strong>, <br/> a highly motivated Full Stack Developer passionate about exploring new technologies and delivering clean and scalable solutions.")
                             .start();
                     }}
                 />
