@@ -11,6 +11,12 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 16px;
     }
 
+    @media (max-width: 1024px){
+        html {
+            font-size: 14px;
+        }
+    }
+    
     body {
         background-color: ${defaultTheme.primaryBackgroundColor};
     }

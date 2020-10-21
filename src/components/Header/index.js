@@ -15,10 +15,23 @@ const Background = styled.div`
 
 const Title = styled.h1`
     position: absolute;
-    bottom: 15%;
-    left: 5%;
+    top: 60%;
     letter-spacing: 0.5px;
-    width: 60%;
+    line-height: 1.2;
+    width: 80%;
+    padding: 0 50px;
+
+    @media (max-width: 1440px) {
+        width: 80%;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+
+    @media (max-width: 500px) {
+        top: 30%;
+    }
 `
 
 const Header = () => {
@@ -27,11 +40,8 @@ const Header = () => {
             <Title>
                 <Typewriter
                     onInit={(typewriter) => {
-                        typewriter.changeDelay(75)
-                            .typeString("Hey I am Kary.")
-                            .pauseFor(2000)
-                            .deleteAll()
-                            .typeString("I am a full stack developer passionate about creating scalable and efficient solutions.")
+                        typewriter.changeDelay(1)
+                            .typeString("Hey I am <strong>Kary</strong>.<br/> I am a full stack developer passionate about creating scalable and efficient solutions.")
                             .start();
                     }}
                 />

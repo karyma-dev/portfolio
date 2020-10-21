@@ -20,6 +20,7 @@ const Header = styled.h2`
 
 const Paragraph = styled.p`
     letter-spacing: 1px;
+    width: 50%;
 `
 
 const Image = styled.img`
@@ -27,7 +28,6 @@ const Image = styled.img`
 `
 
 const Project = ({ reverse }) => {
-    console.log(reverse)
     return (
         <Container>
             <Image reverse={reverse} src={box} alt="" />

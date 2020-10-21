@@ -1,42 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Navbar = styled.div`
-    position: absolute;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    padding: 0 5%;
-`
+import Logo from './Logo'
+import Menu from './Menu'
 
-const Container = styled.div`
+const Navbar = styled.div`
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    width: 250px;
-`
-
-const NavItem = styled.a`
-    display: block;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    text-decoration: none;
-
-    &:hover {
-        font-weight: 500;
-    }
+    align-items: center;
+    width: 100%;
+    padding: 50px 50px;
 `
 
 const Nav = () => {
     return (
         <Navbar>
-            <Container>
-                <NavItem href="#projects">Projects</NavItem>
-                <NavItem href="#about">About</NavItem>
-            </Container>
+            <Logo />
+            <Menu />
         </Navbar >
     )
 }
