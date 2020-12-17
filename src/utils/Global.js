@@ -1,7 +1,7 @@
-import { createGlobalStyle } from 'styled-components'
-import { normalize } from 'polished'
-import { typeScale, primaryFont } from './typography'
-import { defaultTheme } from './themes'
+import {createGlobalStyle} from 'styled-components'
+import {normalize} from 'polished'
+import {typeScale, primaryFont} from './typography'
+import {defaultTheme} from './themes'
 
 export const GlobalStyle = createGlobalStyle`
     ${normalize()}
@@ -26,7 +26,6 @@ export const GlobalStyle = createGlobalStyle`
         font-family: ${primaryFont};
         color: ${defaultTheme.primaryTextColor};
         font-weight: 300;
-        z-index: 100;
     }
 
     h1 {
