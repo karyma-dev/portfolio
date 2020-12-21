@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
+import {defaultTheme} from '../../utils/themes'
 
 import Logo from './Logo'
 import Menu from './Menu'
@@ -7,7 +8,7 @@ import Menu from './Menu'
 const Navbar = styled.div`
     position: fixed;
     display: flex;
-    background-color: ${(props) => (props.active ? '#080808' : 'none')};
+    background-color: ${(props) => (props.active ? defaultTheme.secondaryBackgroundColor : 'none')};
     box-shadow: ${(props) => (props.active ? '0px 3px 15px rgba(0,0,0,0.4)' : 'none')};
     justify-content: space-between;
     align-items: center;
