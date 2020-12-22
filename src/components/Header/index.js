@@ -25,12 +25,12 @@ const Title = styled.h1`
 
 const Header = () => {
     return (
-        <Background>
+        <Background id='home'>
             <Title>
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .changeDelay(1)
+                            .changeDelay(50)
                             .typeString(
                                 'Hey I am <strong>Kary</strong>, <br/> a react developer passionate about delivering clean and scalable solutions.'
                             )

@@ -63,7 +63,7 @@ function Reference() {
     }
 
     return (
-        <Container>
+        <Container id='references'>
             <Svg viewBox='0 0 512 512' fill='white' onClick={() => changeReference(-1)}>
                 <path
                     d='M221.568,255.359L394.373,82.553c18.821-18.82,18.821-49.617,0-68.438s-51.328-18.821-68.438,0L117.2,221.14

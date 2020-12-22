@@ -1,4 +1,5 @@
 import React from 'react'
+import {Element} from 'react-scroll'
 
 import Nav from './components/Nav'
 import Header from './components/Header'
@@ -11,9 +12,13 @@ const App = () => {
     return (
         <>
             <Nav />
+            <Element name='home' />
             <Header />
+            <Element name='projects' />
             <Projects />
+            <Element name='about' />
             <About />
+            <Element name='references' />
             <Reference />
             <Footer />
         </>
