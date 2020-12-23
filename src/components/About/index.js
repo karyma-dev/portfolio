@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 import Description from './Description'
 import Profile from './Profile'
+import img from '../../assets/bg.png'
 
 const Container = styled.div`
     padding: 0 10%;
@@ -11,6 +12,8 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(${img}) no-repeat center / cover;
+    background-attachment: fixed;
 `
 
 const About = () => {

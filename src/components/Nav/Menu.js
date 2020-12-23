@@ -19,6 +19,8 @@ const ListItemLink = styled(Link)`
     &:hover {
         text-shadow: 1px 0 0 white;
     }
+
+    text-shadow: ${(props) => (props.activeClass ? 'text-shadow: 1px 0 0 white;' : 'none;')};
 `
 
 const Menu = () => {

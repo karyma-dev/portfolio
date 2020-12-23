@@ -51,7 +51,10 @@ function Description() {
                 <ListItem>Express</ListItem>
                 <ListItem>React</ListItem>
                 <ListItem>Redux</ListItem>
+                <ListItem>Next JS</ListItem>
                 <ListItem>Mangodb</ListItem>
+                <ListItem>MySql</ListItem>
+                <ListItem>Webpack</ListItem>
                 <ListItem>Electron</ListItem>
                 <ListItem>Socket.io</ListItem>
                 <ListItem>AWS</ListItem>

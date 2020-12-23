@@ -51,4 +51,5 @@ export const GlobalStyle = createGlobalStyle`
     p {
         font-size: ${typeScale.p};
     }
+
 `
