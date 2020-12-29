@@ -14,7 +14,7 @@ const StyledMenu = styled.nav`
     top: 0;
     left: 0;
     transition: transform 0.3s ease-in-out;
-    width: 50vw;
+    width: 60vw;
 
     a {
         font-size: 2rem;

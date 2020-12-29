@@ -4,6 +4,16 @@ import styled from 'styled-components'
 const Column = styled.div`
     flex: 2;
     padding-right: 100px;
+
+    @media only screen and (max-width: 1440px) {
+        flex: 1.5;
+        padding-right: 50px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        order: 1;
+        padding-right: 0;
+    }
 `
 
 const Header = styled.h2`
@@ -15,15 +25,14 @@ const Paragraph = styled.p``
 const List = styled.ul`
     display: flex;
     flex-wrap: wrap;
-    padding: 0 20px;
+    padding-left: 20px;
     flex: 1;
 `
 
 const ListItem = styled.li`
     text-transform: uppercase;
-    flex-basis: 200px;
+    flex-basis: 120px;
     margin: 3px 0;
-    letter-spacing: 1px;
 `
 
 function Description() {

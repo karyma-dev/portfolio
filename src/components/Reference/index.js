@@ -18,6 +18,10 @@ const Ref = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @media only screen and (max-width: 1024px) {
+        padding: 10px;
+    }
 `
 
 const Quote = styled.em`
@@ -25,6 +29,10 @@ const Quote = styled.em`
     letter-spacing: 1px;
     line-height: 1.5em;
     text-indent: 50px;
+
+    @media only screen and (max-width: 1024px) {
+        font-size: 1rem;
+    }
 `
 
 const Author = styled.span`
@@ -39,6 +47,16 @@ const Svg = styled.svg`
 
     &:hover {
         fill: rgba(255, 255, 255, 0.5);
+    }
+
+    @media only screen and (max-width: 1024px) {
+        position: absolute;
+        width: 30px;
+        right: 1%;
+
+        &:nth-of-type(1) {
+            left: 1%;
+        }
     }
 `
 
@@ -98,8 +116,3 @@ function Reference() {
 }
 
 export default Reference
-
-// <Container>
-//     <q>{reference.statement}</q>
-//     <em>{reference.author}</em>
-// </Container>

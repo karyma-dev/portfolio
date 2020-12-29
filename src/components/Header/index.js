@@ -18,8 +18,13 @@ const Title = styled.h1`
     line-height: 1.2;
     padding: 0 10%;
 
-    @media (max-width: 500px) {
-        top: 30%;
+    @media only screen and (max-width: 768px) {
+        top: 50%;
+    }
+
+    @media only screen and (max-width: 425px) {
+        top: 40%;
+        font-size: 2.5rem;
     }
 `
 

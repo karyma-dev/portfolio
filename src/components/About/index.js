@@ -7,13 +7,17 @@ import Profile from './Profile'
 import img from '../../assets/bg.png'
 
 const Container = styled.div`
-    padding: 0 10%;
+    padding: 100px 10%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: url(${img}) no-repeat center / cover;
     background-attachment: fixed;
+
+    @media only screen and (max-width: 1024px) {
+        flex-direction: column;
+    }
 `
 
 const About = () => {

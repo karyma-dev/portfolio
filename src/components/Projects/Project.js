@@ -7,13 +7,20 @@ const Container = styled.div`
     display: flex;
     margin: 100px 0;
     align-items: center;
-    border-radius: 25px;
-    opacity: 0.95;
+
+    @media only screen and (max-width: 1024px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 `
 
 const ImageContainer = styled.div`
     order: ${(props) => (props.reverse ? 1 : 0)};
     flex: 1;
+
+    @media only screen and (max-width: 1024px) {
+        order: 0;
+    }
 `
 
 const Image = styled.img`
@@ -25,6 +32,11 @@ const Description = styled.div`
     margin-left: ${(props) => (props.reverse ? '0' : '50px')};
     margin-right: ${(props) => (props.reverse ? '50px' : '0')};
     flex: 2;
+
+    @media only screen and (max-width: 1024px) {
+        margin: 0;
+        margin: 30px 0;
+    }
 `
 
 const Header = styled.h3`
