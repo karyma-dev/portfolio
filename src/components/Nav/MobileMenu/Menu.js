@@ -1,12 +1,31 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import {Link} from 'react-scroll'
 
-import MobileMenu from './MobileMenu'
-
-const List = styled.ul`
-    list-style: none;
+const StyledMenu = styled.nav`
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #effffa;
+    transform: ${({open}) => (open ? 'translateX(0)' : 'translateX(-100%)')};
+    height: 100vh;
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    width: 50vw;
+
+    a {
+        font-size: 2rem;
+        text-transform: uppercase;
+        padding: 2rem 0;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: black;
+        text-decoration: none;
+        transition: color 0.3s linear;
+    }
 `
 
 const ListItem = styled.li`
@@ -15,39 +34,11 @@ const ListItem = styled.li`
 
 const ListItemLink = styled(Link)`
     display: inline-block;
-    margin-left: 20px;
-    text-decoration: none;
-    letter-spacing: 3px;
-    &:hover {
-        text-shadow: 1px 0 0 white;
-    }
-
-    text-shadow: ${(props) => (props.activeClass ? 'text-shadow: 1px 0 0 white;' : 'none;')};
 `
 
-const Menu = () => {
-    const [menu, toggleMenu] = useState(false)
-
-    const setWindowSize = () => {
-        const size = window.innerWidth
-
-        if (size < 1000) {
-            toggleMenu(true)
-        } else {
-            toggleMenu(false)
-        }
-    }
-
-    useEffect(() => {
-        setWindowSize()
-    }, [])
-
-    window.addEventListener('resize', setWindowSize)
-
-    return menu ? (
-        <MobileMenu />
-    ) : (
-        <List>
+const Menu = ({open}) => {
+    return (
+        <StyledMenu open={open}>
             <ListItem>
                 <ListItemLink activeClass='active' to='home' spy={true} smooth={true}>
                     Home
@@ -68,7 +59,7 @@ const Menu = () => {
                     References
                 </ListItemLink>
             </ListItem>
-        </List>
+        </StyledMenu>
     )
 }
 
