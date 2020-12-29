@@ -40,11 +40,13 @@ function Description() {
         <Column>
             <Header>About Me</Header>
             <Paragraph>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse placeat necessitatibus
-                ad non quidem sint vel commodi voluptate alias praesentium cupiditate debitis soluta
-                iste quia molestias a iusto dicta dolore tenetur quasi, porro, eaque deserunt.
-                Dolorem hic culpa, error ad aspernatur molestias ex tenetur harum similique, laborum
-                quia, sint atque?
+                I am full stack developer graduated from Brainstation Coding Bootcamp, here in
+                Vancouver, B.C. Currently I’m helping out at Preception Technology and Volumetric
+                Camera Systems while learning new technologies and creating projects on the side.
+                Before web development I was a renovator working alongside my father. I always knew
+                I had passion for building things, this interest gradually moved on to learning how
+                to develop and maintain web applications. With the skills I have learned at
+                Brainstation I can create more, not only limited to physical things.
             </Paragraph>
 
             <Header>Skills</Header>

@@ -48,7 +48,18 @@ const Paragraph = styled.p`
     letter-spacing: 2px;
 `
 
-const Project = ({reverse, title, description, image}) => {
+const Link = styled.a`
+    color: white;
+    text-decoration: none;
+`
+
+const Project = ({reverse, title, description, image, github}) => {
+    const githubLink = github ? (
+        <Link href={github} target='_blank'>
+            Github
+        </Link>
+    ) : null
+
     return (
         <Container>
             <ImageContainer reverse={reverse}>
@@ -59,7 +70,7 @@ const Project = ({reverse, title, description, image}) => {
 
                 <Paragraph reverse={reverse}>{description}</Paragraph>
 
-                <div>Github</div>
+                {githubLink}
             </Description>
         </Container>
     )
