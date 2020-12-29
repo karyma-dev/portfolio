@@ -19,12 +19,12 @@ export const GlobalStyle = createGlobalStyle`
     
     body {
         background-color: ${defaultTheme.primaryBackgroundColor};
+        color: ${defaultTheme.primaryTextColor};
     }
       
     *, *:before, *:after {
         box-sizing: inherit;
         font-family: ${primaryFont};
-        color: ${defaultTheme.primaryTextColor};
         font-weight: 300;
     }
 
