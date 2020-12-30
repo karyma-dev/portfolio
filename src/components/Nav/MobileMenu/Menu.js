@@ -26,6 +26,14 @@ const StyledMenu = styled.nav`
         text-decoration: none;
         transition: color 0.3s linear;
     }
+
+    @media only screen and (max-width: 500px) {
+        width: 80vw;
+
+        a {
+            font-size: 1.5rem;
+        }
+    }
 `
 
 const ListItem = styled.li`

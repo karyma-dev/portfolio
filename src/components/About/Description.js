@@ -36,6 +36,10 @@ const ListItem = styled.li`
     text-transform: uppercase;
     flex-basis: 120px;
     margin: 3px 0;
+
+    @media only screen and (max-width: 400px) {
+        flex-basis: 100px;
+    }
 `
 
 function Description() {

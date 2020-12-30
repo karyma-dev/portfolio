@@ -31,7 +31,7 @@ const Menu = () => {
     const setWindowSize = () => {
         const size = window.innerWidth
 
-        if (size < 768) {
+        if (size < 999) {
             toggleMenu(true)
         } else {
             toggleMenu(false)

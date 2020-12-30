@@ -29,6 +29,11 @@ const Title = styled.h1`
         top: 40%;
         font-size: 2.5rem;
     }
+
+    @media only screen and (max-width: 768px) and (orientation: landscape) {
+        top: 30%;
+        font-size: 2rem;
+    }
 `
 
 const IconContainer = styled.div`
