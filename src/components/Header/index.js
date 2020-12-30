@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import Typewriter from 'typewriter-effect'
 
+import Linkedin from '../Footer/Icons/Linkedin'
+import Email from '../Footer/Icons/Email'
+import Github from '../Footer/Icons/Github'
 import img from '../../assets/bg.png'
 
 const Background = styled.header`
@@ -28,6 +31,13 @@ const Title = styled.h1`
     }
 `
 
+const IconContainer = styled.div`
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+`
+
 const Header = () => {
     return (
         <Background id='home' role='banner'>
@@ -43,6 +53,12 @@ const Header = () => {
                     }}
                 />
             </Title>
+
+            <IconContainer>
+                <Email />
+                <Linkedin />
+                <Github />
+            </IconContainer>
         </Background>
     )
 }

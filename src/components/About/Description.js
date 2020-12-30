@@ -43,13 +43,17 @@ function Description() {
         <Column>
             <Header>About Me</Header>
             <Paragraph>
-                I am full stack developer graduated from Brainstation Coding Bootcamp, here in
-                Vancouver, B.C. Currently I’m helping out at Preception Technology and Volumetric
-                Camera Systems while learning new technologies and creating projects on the side.
-                Before web development I was a renovator working alongside my father. I always knew
-                I had passion for building things, this interest gradually moved on to learning how
-                to develop and maintain web applications. With the skills I have learned at
-                Brainstation I can create more, not only limited to physical things.
+                I am Full Stack React developer located in Vancouver, BC. I graduated from
+                Brainstation Coding Bootcamp about 2 years ago. Before web development I was a
+                renovator working alongside my father. I always knew I had passion for building
+                things, this interest gradually moved on to learning how to develop and maintain web
+                applications. With the skills I have learned at Brainstation I can create more, not
+                only limited to physical things.
+            </Paragraph>
+
+            <Paragraph>
+                Feel free to email me or add me on linkedin for new opportunities or collaborations.
+                I am currently looking for a full time position as a developer.
             </Paragraph>
 
             <Header>Skills</Header>
@@ -65,8 +69,8 @@ function Description() {
                 <ListItem>Express</ListItem>
                 <ListItem>React</ListItem>
                 <ListItem>Redux</ListItem>
-                <ListItem>Next JS</ListItem>
-                <ListItem>Mangodb</ListItem>
+                <ListItem>Next</ListItem>
+                <ListItem>Mongodb</ListItem>
                 <ListItem>MySql</ListItem>
                 <ListItem>Webpack</ListItem>
                 <ListItem>Electron</ListItem>
