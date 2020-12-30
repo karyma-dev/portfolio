@@ -6,7 +6,7 @@ import {defaultTheme} from '../../utils/themes'
 import Logo from './Logo'
 import Menu from './Menu'
 
-const Navbar = styled.div`
+const Navbar = styled.nav`
     position: fixed;
     display: flex;
     background-color: ${(props) => (props.active ? defaultTheme.secondaryBackgroundColor : 'none')};
@@ -32,7 +32,7 @@ const Nav = () => {
     window.addEventListener('scroll', showBackground)
 
     return (
-        <Navbar active={active}>
+        <Navbar active={active} role='navigation'>
             <Logo />
             <Menu />
         </Navbar>

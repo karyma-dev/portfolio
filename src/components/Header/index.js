@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 
 import img from '../../assets/bg.png'
 
-const Background = styled.div`
+const Background = styled.header`
     height: 100vh;
     background: linear-gradient(to bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 1)),
         url(${img}) no-repeat center / cover;
@@ -30,7 +30,7 @@ const Title = styled.h1`
 
 const Header = () => {
     return (
-        <Background id='home'>
+        <Background id='home' role='banner'>
             <Title>
                 <Typewriter
                     onInit={(typewriter) => {

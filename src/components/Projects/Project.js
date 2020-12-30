@@ -46,11 +46,13 @@ const Header = styled.h3`
 
 const Paragraph = styled.p`
     letter-spacing: 2px;
+    line-height: 1.3;
 `
 
 const Link = styled.a`
     color: white;
     text-decoration: none;
+    letter-spacing: 2px;
 `
 
 const Project = ({reverse, title, description, image, github}) => {

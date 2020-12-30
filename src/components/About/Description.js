@@ -20,7 +20,10 @@ const Header = styled.h2`
     font-weight: 600;
 `
 
-const Paragraph = styled.p``
+const Paragraph = styled.p`
+    letter-spacing: 1px;
+    text-indent: 20px;
+`
 
 const List = styled.ul`
     display: flex;
