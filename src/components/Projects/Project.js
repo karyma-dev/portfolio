@@ -65,7 +65,7 @@ const Project = ({reverse, title, description, image, github}) => {
     return (
         <Container>
             <ImageContainer reverse={reverse}>
-                <Image src={image} alt='' />
+                <Image src={image} alt={`${title} screenshot`} />
             </ImageContainer>
             <Description reverse={reverse}>
                 <Header>{title}</Header>
