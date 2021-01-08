@@ -19,14 +19,12 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: "babel-loader"
-                }
+                    loader: 'babel-loader',
+                },
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    'file-loader',
-                ],
+                use: ['file-loader'],
             },
         ],
     },
@@ -35,6 +33,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            favicon: './src/assets/favicon.ico',
             template: path.join(__dirname, 'src', 'index.html'),
         }),
     ],

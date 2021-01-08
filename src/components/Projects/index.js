@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Project from './Project'
 import mefit from '../../assets/mefit.png'
 import weather_app from '../../assets/weather_app.png'
-import coming_soon from '../../assets/coming_soon.jpg'
+import outcha from '../../assets/outcha.png'
 
 const Container = styled.div`
     padding: 20px 10%;
@@ -17,10 +17,10 @@ const Projects = () => {
         <Container id='projects'>
             <Fade left>
                 <Project
-                    title='Pokemon DB'
-                    image={coming_soon}
-                    description='A pokemon database application created with Nextjs, Typescript and uses Pokeapi as the primary api. Its autocomplete functionality is built with react downshift.'
-                    github='https://github.com/karyma101/pokemondb-nextjs'
+                    title='Outcha'
+                    image={outcha}
+                    description='Outcha is a resale clothing store located in L.A. The web application is created with Next js and Typescript. Outcha uses a Strapi which is an nodejs headless cms to add and edit new/existing items. It also uses Stripe to process payments.'
+                    github='https://github.com/karyma101/outcha'
                 />
             </Fade>
             <Fade right>

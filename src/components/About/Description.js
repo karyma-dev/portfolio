@@ -28,18 +28,18 @@ const Paragraph = styled.p`
 const List = styled.ul`
     display: flex;
     flex-wrap: wrap;
-    padding-left: 20px;
+    padding-left: 18px;
     flex: 1;
+
+    @media only screen and (max-width: 400px) {
+        justify-content: space-between;
+    }
 `
 
 const ListItem = styled.li`
     text-transform: uppercase;
     flex-basis: 120px;
     margin: 3px 0;
-
-    @media only screen and (max-width: 400px) {
-        flex-basis: 100px;
-    }
 `
 
 function Description() {
@@ -79,6 +79,8 @@ function Description() {
                 <ListItem>Webpack</ListItem>
                 <ListItem>Electron</ListItem>
                 <ListItem>Socket.io</ListItem>
+                <ListItem>Strapi</ListItem>
+                <ListItem>Stripe</ListItem>
                 <ListItem>AWS</ListItem>
                 <ListItem>Figma</ListItem>
             </List>

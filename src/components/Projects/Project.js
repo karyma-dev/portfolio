@@ -42,6 +42,7 @@ const Description = styled.div`
 const Header = styled.h3`
     margin: 0;
     padding: 0;
+    font-weight: 600;
 `
 
 const Paragraph = styled.p`
@@ -53,6 +54,7 @@ const Link = styled.a`
     color: white;
     text-decoration: none;
     letter-spacing: 2px;
+    font-weight: 500;
 `
 
 const Project = ({reverse, title, description, image, github}) => {
