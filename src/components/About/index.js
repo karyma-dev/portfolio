@@ -13,7 +13,6 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     background: url(${img}) no-repeat center / cover;
-    background-attachment: fixed;
 
     @media only screen and (max-width: 1024px) {
         flex-direction: column;
