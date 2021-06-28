@@ -53,7 +53,7 @@ function Description() {
             </Paragraph>
 
             <Paragraph>
-                If you would like to know more about me or my journey or, if you want to collaborate on a project free to reach out to me on <a href="">linkedin</a>.
+                If you would like to know more about me or my journey or, if you want to collaborate on a project free to reach out to me on <a href="https://www.linkedin.com/in/kary-ma/">linkedin</a>.
             </Paragraph>
 
             <Header>Skills</Header>
