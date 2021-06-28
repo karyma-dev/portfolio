@@ -49,11 +49,6 @@ const Menu = () => {
     ) : (
         <List>
             <ListItem>
-                <ListItemLink activeClass='active' to='home' spy={true} smooth={true}>
-                    Home
-                </ListItemLink>
-            </ListItem>
-            <ListItem>
                 <ListItemLink activeClass='active' to='projects' spy={true} smooth={true}>
                     Projects
                 </ListItemLink>
@@ -66,6 +61,11 @@ const Menu = () => {
             <ListItem>
                 <ListItemLink activeClass='active' to='references' spy={true} smooth={true}>
                     References
+                </ListItemLink>
+            </ListItem>
+            <ListItem>
+                <ListItemLink activeClass='active' >
+                    Resume
                 </ListItemLink>
             </ListItem>
         </List>

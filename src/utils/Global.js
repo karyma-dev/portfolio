@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     html {
         box-sizing: border-box;
         font-size: 16px;
+        font-weight: 400;
     }
 
     @media (max-width: 1024px){
@@ -25,7 +26,7 @@ export const GlobalStyle = createGlobalStyle`
     *, *:before, *:after {
         box-sizing: inherit;
         font-family: ${primaryFont};
-        font-weight: 300;
+        letter-spacing: 1.5px;
     }
 
     h1 {
@@ -52,4 +53,8 @@ export const GlobalStyle = createGlobalStyle`
         font-size: ${typeScale.p};
     }
 
+    a {
+        text-decoration: none;
+        color:  ${defaultTheme.primaryTextColor};
+    }
 `

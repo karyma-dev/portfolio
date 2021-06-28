@@ -6,8 +6,7 @@ import img from '../../assets/bg.png'
 
 const Background = styled.header`
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 1)),
-        url(${img}) no-repeat center / cover;
+    background: url(${img}) no-repeat center / cover;
     position: relative;
 `
 
@@ -17,6 +16,7 @@ const Title = styled.h1`
     letter-spacing: 0.5px;
     line-height: 1.2;
     padding: 0 10%;
+    font-weight: 300;
 
     @media only screen and (max-width: 768px) {
         top: 50%;

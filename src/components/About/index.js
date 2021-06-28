@@ -1,5 +1,4 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade'
 import styled from 'styled-components'
 
 import Description from './Description'
@@ -12,7 +11,7 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(${img}) no-repeat center / cover;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 1)), url(${img}) no-repeat center / cover;
 
     @media only screen and (max-width: 1024px) {
         flex-direction: column;
@@ -21,12 +20,10 @@ const Container = styled.div`
 
 const About = () => {
     return (
-        <Fade>
-            <Container>
-                <Description />
-                <Profile />
-            </Container>
-        </Fade>
+        <Container>
+            <Description />
+            <Profile />
+        </Container>
     )
 }
 

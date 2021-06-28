@@ -21,14 +21,16 @@ const Header = styled.h2`
 `
 
 const Paragraph = styled.p`
-    letter-spacing: 1px;
     text-indent: 20px;
+    line-height: 1.3;
+    font-weight: 400;
 `
 
 const List = styled.ul`
     display: flex;
     flex-wrap: wrap;
     padding-left: 18px;
+    font-size: 14px;
     flex: 1;
 
     @media only screen and (max-width: 400px) {
@@ -38,7 +40,7 @@ const List = styled.ul`
 
 const ListItem = styled.li`
     text-transform: uppercase;
-    flex-basis: 120px;
+    flex-basis: 230px;
     margin: 3px 0;
 `
 
@@ -47,17 +49,11 @@ function Description() {
         <Column>
             <Header>About Me</Header>
             <Paragraph>
-                I am Full Stack React developer located in Vancouver, BC. I graduated from
-                Brainstation Coding Bootcamp about 2 years ago. Before web development I was a
-                renovator working alongside my father. I always knew I had passion for building
-                things, this interest gradually moved on to learning how to develop and maintain web
-                applications. With the skills I have learned at Brainstation I can create more, not
-                only limited to physical things.
+                Hey, my name is Kary, I am a React developer based in Vancouver, BC. I am someone who likes to be flexible and keep an open mind with what and whomever I am working with. I am also a diverse team player knowledgeable in multiple industries such as construction, fitness, health, and technology. I graduated from Brainstation coding bootcamp here in Vancouver 3 years ago. Before web development I do renovation and construction with my father in the lower mainland area. My passion for building and repairing things eventually lead me to pursue a career in web development. After Brainstation I created a variety of different projects to explore new technologies and volunteered at multiple startups. Currently in the process of searching for a full time position as a developer.
             </Paragraph>
 
             <Paragraph>
-                Feel free to email me or add me on linkedin for new opportunities or collaborations.
-                I am currently looking for a full time position as a developer.
+                If you would like to know more about me or my journey or, if you want to collaborate on a project free to reach out to me on <a href="">linkedin</a>.
             </Paragraph>
 
             <Header>Skills</Header>
@@ -74,6 +70,9 @@ function Description() {
                 <ListItem>React</ListItem>
                 <ListItem>Redux</ListItem>
                 <ListItem>Next</ListItem>
+                <ListItem>Jest</ListItem>
+                <ListItem>React-Testing-Library</ListItem>
+                <ListItem>Styled-Components</ListItem>
                 <ListItem>Mongodb</ListItem>
                 <ListItem>MySql</ListItem>
                 <ListItem>Webpack</ListItem>
@@ -81,6 +80,10 @@ function Description() {
                 <ListItem>Socket.io</ListItem>
                 <ListItem>Strapi</ListItem>
                 <ListItem>Stripe</ListItem>
+                <ListItem>Python</ListItem>
+                <ListItem>Django</ListItem>
+                <ListItem>Ruby</ListItem>
+                <ListItem>Ruby on Rails</ListItem>
                 <ListItem>AWS</ListItem>
                 <ListItem>Figma</ListItem>
             </List>

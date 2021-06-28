@@ -5,7 +5,7 @@ import {defaultTheme} from '../../utils/themes'
 
 const Container = styled.div`
     display: flex;
-    margin: 100px 0;
+    margin: 50px 0;
     align-items: center;
 
     @media only screen and (max-width: 1024px) {
@@ -55,12 +55,19 @@ const Link = styled.a`
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 500;
+    margin-right: 20px;
 `
 
-const Project = ({reverse, title, description, image, github}) => {
+const Project = ({reverse, title, description, image, github, website}) => {
     const githubLink = github ? (
         <Link href={github} target='_blank'>
             Github
+        </Link>
+    ) : null
+
+    const websiteLink = website ? (
+        <Link href={website} target='_blank'>
+            Website
         </Link>
     ) : null
 
@@ -74,6 +81,7 @@ const Project = ({reverse, title, description, image, github}) => {
 
                 <Paragraph reverse={reverse}>{description}</Paragraph>
 
+                {websiteLink}
                 {githubLink}
             </Description>
         </Container>

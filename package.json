@@ -1,5 +1,5 @@
 {
-  "name": "myPortfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karyma101/myPortfolio.git"
+    "url": "git+https://github.com/karyma101/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karyma101/myPortfolio/issues"
+    "url": "https://github.com/karyma101/portfolio/issues"
   },
-  "homepage": "https://github.com/karyma101/myPortfolio#readme",
+  "homepage": "https://github.com/karyma101/portfolio#readme",
   "dependencies": {
     "polished": "^3.6.6",
     "react": "^16.13.1",
