@@ -30,10 +30,10 @@ const List = styled.ul`
     display: flex;
     flex-wrap: wrap;
     padding-left: 18px;
-    font-size: 14px;
+    font-size: 0.9rem;
     flex: 1;
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 500px) {
         justify-content: space-between;
     }
 `
@@ -42,6 +42,19 @@ const ListItem = styled.li`
     text-transform: uppercase;
     flex-basis: 230px;
     margin: 3px 0;
+    @media only screen and (max-width: 900px) {
+        flex-basis: 150px;
+    }
+
+    @media only screen and (max-width: 500px) {
+        flex-basis: 130px;
+        font-size: 0.8rem;
+    }
+
+    @media only screen and (max-width: 350px) {
+        flex-basis: 110px;
+        font-size: 0.7rem;
+    }
 `
 
 function Description() {
@@ -53,7 +66,7 @@ function Description() {
             </Paragraph>
 
             <Paragraph>
-                If you would like to know more about me or my journey or, if you want to collaborate on a project free to reach out to me on <a href="https://www.linkedin.com/in/kary-ma/">linkedin</a>.
+                If you would like to know more about me or my journey or, if you want to collaborate on a project free to reach out to me on <strong><a href="https://www.linkedin.com/in/kary-ma/">linkedin</a></strong>.
             </Paragraph>
 
             <Header>Skills</Header>

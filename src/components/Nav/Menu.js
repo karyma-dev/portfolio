@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import styled from 'styled-components'
 import {Link} from 'react-scroll'
+import Resume from '../../assets/resume.pdf'
 
 import MobileMenu from './MobileMenu'
 
@@ -14,6 +15,18 @@ const ListItem = styled.li`
 `
 
 const ListItemLink = styled(Link)`
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    &:hover {
+        text-shadow: 1px 0 0 white;
+    }
+
+    text-shadow: ${(props) => (props.activeClass ? 'text-shadow: 1px 0 0 white;' : 'none;')};
+`
+
+const ResumeLink = styled.a`
     display: inline-block;
     margin-left: 20px;
     text-decoration: none;
@@ -64,9 +77,9 @@ const Menu = () => {
                 </ListItemLink>
             </ListItem>
             <ListItem>
-                <ListItemLink activeClass='active' >
+                <ResumeLink activeClass='active' href={Resume} target="_blank">
                     Resume
-                </ListItemLink>
+                </ResumeLink>
             </ListItem>
         </List>
     )
