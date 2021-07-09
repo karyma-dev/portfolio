@@ -1,5 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide'
 import styled from 'styled-components'
 
 import Project from './Project'
@@ -25,8 +26,6 @@ const Link = styled.a`
 const Projects = () => {
     return (
         <Container id='projects'>
-            <Fade left>
-            </Fade>
             <Fade right>
                 <Project
                     title='MeFit'
@@ -45,7 +44,9 @@ const Projects = () => {
                     reverse
                 />
             </Fade>
-            <Link href="https://github.com/karyma101" target="_blank">View More On Github</Link>
+            <Fade>
+                <Link href="https://github.com/karyma101" target="_blank">View More Projects</Link>
+            </Fade>
         </Container>
     )
 }

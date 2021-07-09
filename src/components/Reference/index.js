@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Zoom from 'react-reveal/Zoom'
 import styled from 'styled-components'
 
 import references from './Data.js'
@@ -82,7 +81,6 @@ function Reference() {
     }
 
     return (
-        <Zoom>
             <Container id='references'>
                 <Svg viewBox='0 0 512 512' fill='white' onClick={() => changeReference(-1)}>
                     <path
@@ -111,7 +109,6 @@ function Reference() {
                     />
                 </Svg>
             </Container>
-        </Zoom>
     )
 }
 

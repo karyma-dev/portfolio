@@ -33,8 +33,10 @@ const Nav = () => {
 
     return (
         <Navbar active={active} role='navigation'>
-            <Logo />
-            <Menu />
+            <Fade>
+                <Logo />
+                <Menu />
+            </Fade>
         </Navbar>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Fade from 'react-reveal/Fade'
 
 import Description from './Description'
 import Profile from './Profile'
@@ -21,8 +22,10 @@ const Container = styled.div`
 const About = () => {
     return (
         <Container>
-            <Description />
-            <Profile />
+            <Fade big>
+                <Description />
+                <Profile />
+            </Fade>
         </Container>
     )
 }
