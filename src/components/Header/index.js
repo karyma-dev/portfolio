@@ -40,7 +40,7 @@ const Header = () => {
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .changeDelay(60)
+                            .changeDelay(40)
                             .typeString(
                                 'Hey I am <strong>Kary</strong>, <br/> a react developer passionate about delivering clean and scalable solutions.'
                             )
