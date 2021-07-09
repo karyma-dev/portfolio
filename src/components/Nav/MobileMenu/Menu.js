@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import {Link} from 'react-scroll'
 
+import Resume from '../../../assets/resume.pdf'
+
 const StyledMenu = styled.nav`
     display: flex;
     flex-direction: column;
@@ -44,6 +46,11 @@ const ListItemLink = styled(Link)`
     display: inline-block;
 `
 
+const ResumeLink = styled.a`
+    display: inline-block;
+`
+
+
 const Menu = ({open}) => {
     return (
         <StyledMenu open={open}>
@@ -66,6 +73,11 @@ const Menu = ({open}) => {
                 <ListItemLink activeClass='active' to='references' spy={true} smooth={true}>
                     References
                 </ListItemLink>
+            </ListItem>
+            <ListItem>
+                <ResumeLink activeClass='active' href={Resume} target="_blank">
+                    Resume
+                </ResumeLink>
             </ListItem>
         </StyledMenu>
     )
