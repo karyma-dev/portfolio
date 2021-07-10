@@ -22,10 +22,8 @@ const Container = styled.div`
 const About = () => {
     return (
         <Container>
-            <Fade big>
-                <Description />
-                <Profile />
-            </Fade>
+            <Description />
+            <Profile />
         </Container>
     )
 }
