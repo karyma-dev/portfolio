@@ -11,7 +11,7 @@ const Svg = styled.svg`
 
 function Email() {
     return (
-        <a href='mailto:karyma101@hotmail.com'>
+        <a href='mailto:karyma101@hotmail.com' >
             <Svg viewBox='0 0 512 512' width='30' height='30' fill='rgba(255,255,255,1)'>
                 <g>
                     <g>

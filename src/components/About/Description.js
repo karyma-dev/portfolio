@@ -17,6 +17,7 @@ const Column = styled.div`
 `
 
 const Header = styled.h2`
+    margin: 0;
     font-weight: 600;
 `
 
@@ -62,11 +63,11 @@ function Description() {
         <Column>
             <Header>About Me</Header>
             <Paragraph>
-                Hey, my name is Kary, I am a React developer based in Vancouver, BC. I am someone who likes to be flexible and keep an open mind with what and whomever I am working with. I am also a diverse team player knowledgeable in multiple industries such as construction, fitness, health, and technology. I graduated from Brainstation coding bootcamp here in Vancouver 3 years ago. Before web development I do renovation and construction with my father in the lower mainland area. My passion for building and repairing things eventually lead me to pursue a career in web development. After Brainstation I created a variety of different projects to explore new technologies and volunteered at multiple startups. Currently in the process of searching for a full time position as a developer.
+                Hey I'm Kary, an aspiring developer based in Vancouver, BC. I graduated from Brainstation coding bootcamp about 3 years ago. Before web development I work as a renovation contractor alongside my father. Growing up I always knew I wanted do something in tech and with my passion for building things, this eventually lead me to pursue a career in web development. After Brainstation I created a variety of different projects to explore new technologies and volunteered at multiple startups. Currently seeking for a full time position at a company where I can take my skills to the next level and contribute to its growth.
             </Paragraph>
 
             <Paragraph>
-                If you would like to know more about me or my journey or, if you want to collaborate on a project free to reach out to me on <strong><a href="https://www.linkedin.com/in/kary-ma/">linkedin</a></strong>.
+                If you would like to know more about me or if you want to collaborate on a project feel free to reach out to me on <strong><a href="https://www.linkedin.com/in/kary-ma/">linkedin</a></strong>.
             </Paragraph>
 
             <Header>Skills</Header>

@@ -11,7 +11,7 @@ const Svg = styled.svg`
 
 function Github() {
     return (
-        <a href='https://github.com/karyma101'>
+        <a href='https://github.com/karyma101' target="_blank">
             <Svg width='30' height='30' viewBox='0 0 438.536 438.536' fill='rgba(255, 255, 255, 1)'>
                 <g>
                     <g>

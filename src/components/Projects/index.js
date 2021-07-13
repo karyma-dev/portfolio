@@ -30,7 +30,7 @@ const Projects = () => {
                 <Project
                     title='MeFit'
                     image={mefit}
-                    description='A fitness application that calculates and tracks RPE(Rate of Perceived Exertion) and total volume. MeFit was created when I was a student at Brainstation coding bootcamp and it has been constantly updated through out the years. MeFit was created with Nextjs, Typescript and deployed with Vercel. It features user authenthication and registration with both client and server side validation. Passwords are hashed and salted with Bcrypt and stored in the database using Mongodb.'
+                    description='A fitness application that calculates and tracks RPE(Rate of Perceived Exertion) and total volume. MeFit was created when I was a student at Brainstation coding bootcamp and it has been constantly updated through out the years. MeFit is built with Nextjs, Typescript and deployed with Vercel. It features user authenthication with auth0, data storage with mongodb and data representation with d3.'
                     github='https://github.com/karyma101/meFit'
                 />
             </Fade>

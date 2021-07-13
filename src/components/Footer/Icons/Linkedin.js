@@ -15,7 +15,7 @@ const A = styled.a`
 
 const Linkedin = () => {
     return (
-        <A href='https://www.linkedin.com/in/kary-ma/'>
+        <A href='https://www.linkedin.com/in/kary-ma/' target="_blank">
             <Svg width='30' height='30' viewBox='0 0 382 382' fill='rgba(255, 255, 255, 1)'>
                 <path
                     d='M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889

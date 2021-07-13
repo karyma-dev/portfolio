@@ -11,7 +11,6 @@ const Container = styled.div`
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     background: linear-gradient(180deg, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 1)), url(${img}) no-repeat center / cover;
 
     @media only screen and (max-width: 1024px) {
