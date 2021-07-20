@@ -6,10 +6,11 @@ import styled from 'styled-components'
 import Project from './Project'
 import mefit from '../../assets/mefit.png'
 import weather_app from '../../assets/weather_app.png'
+import developer_cheatsheet from '../../assets/developer_cheatsheet.png'
 import {defaultTheme} from '../../utils/themes'
 
 const Container = styled.div`
-    padding: 30px 10%;
+    padding: 10% 10%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -42,6 +43,15 @@ const Projects = () => {
                     github='https://github.com/karyma101/react-weather-app'
                     website='https://dev6975.d2pwnadyx0yrrk.amplifyapp.com/#/'
                     reverse
+                />
+            </Fade>
+            <Fade right>
+                <Project
+                    title='Developer Cheatsheet'
+                    image={developer_cheatsheet}
+                    description="It is impossible to remember everything you learn and everyone has different approaches when it comes to learning. Personally I love creating cheatsheets as a reference for all the things I've learned. To simplify the process I created this application to assist with my approach. This application is powered by Docsify, hosted by AWS amplify and integrated with continious deployment."
+                    github='https://github.com/karyma101/notes'
+                    website='https://main.dioy1ftnwrisd.amplifyapp.com/'
                 />
             </Fade>
             <Fade>
