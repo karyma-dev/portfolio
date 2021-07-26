@@ -8,6 +8,7 @@ const Background = styled.header`
     height: 100vh;
     background: url(${img}) no-repeat center / cover;
     position: relative;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0), rgba(17, 17, 17, 0),rgba(17, 17, 17, 0), rgba(17, 17, 17, 1)), url(${img}) no-repeat center / cover;
 `
 
 const Title = styled.h1`
@@ -22,14 +23,14 @@ const Title = styled.h1`
         top: 50%;
     }
 
-    @media only screen and (max-width: 425px) {
-        top: 40%;
-        font-size: 2.5rem;
-    }
-
     @media only screen and (max-width: 768px) and (orientation: landscape) {
         top: 30%;
         font-size: 2rem;
+    }
+
+    @media only screen and (max-width: 425px) {
+        top: 40%;
+        font-size: 2.5rem;
     }
 `
 
@@ -40,7 +41,7 @@ const Header = () => {
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .changeDelay(30)
+                            .changeDelay(37)
                             .typeString(
                                 'Hey I am <strong>Kary</strong>, <br/> a react developer passionate about delivering efficient and scalable solutions.'
                             )

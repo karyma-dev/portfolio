@@ -12,18 +12,25 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 1)), url(${img}) no-repeat center / cover;
+    background-color: #151515;
+`
 
-    @media only screen and (max-width: 1024px) {
+const Div = styled.div`
+    display: flex;
+
+    @media only screen and (max-width: 1500px) {
         flex-direction: column;
+        align-items: center;
     }
 `
 
 const About = () => {
     return (
         <Container>
-            <Description />
-            <Profile />
+            <Div>
+                <Description />
+                <Profile />
+            </Div>
         </Container>
     )
 }

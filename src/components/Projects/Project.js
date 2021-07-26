@@ -48,13 +48,16 @@ const Header = styled.h3`
 const Paragraph = styled.p`
     letter-spacing: 2px;
     line-height: 1.3;
+    margin: 30px 0;
+    font-weight: 400;
+    text-align: justify;
 `
 
 const Link = styled.a`
     color: white;
     text-decoration: none;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 600;
     margin-right: 20px;
 `
 

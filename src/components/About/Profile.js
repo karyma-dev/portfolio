@@ -4,14 +4,13 @@ import styled from 'styled-components'
 import profileImg from '../../assets/profile.jpg'
 
 const Column = styled.div`
-    flex: 1;
-
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1500px) {
         order: 0;
     }
 `
 
 const Img = styled.img`
+    height: auto;
     width: 100%;
     max-width: 400px;
 `

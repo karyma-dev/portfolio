@@ -43,6 +43,7 @@ const Title = styled.p`
     margin: 0;
     font-weight: 400;
     font-size: 0.8rem;
+    text-align: center;
 `
 
 const Svg = styled.svg`

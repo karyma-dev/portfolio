@@ -10,7 +10,7 @@ const Column = styled.div`
         padding-right: 50px;
     }
 
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1500px) {
         order: 1;
         padding-right: 0;
     }
@@ -19,12 +19,18 @@ const Column = styled.div`
 const Header = styled.h2`
     margin: 0;
     font-weight: 600;
+
+    @media only screen and (max-width: 1500px) {
+        margin-top: 20px;
+    }
 `
 
 const Paragraph = styled.p`
     text-indent: 20px;
     line-height: 1.3;
     font-weight: 400;
+    text-align: justify;
+    letter-spacing: 2px;
 `
 
 const List = styled.ul`
@@ -63,7 +69,7 @@ function Description() {
         <Column>
             <Header>About Me</Header>
             <Paragraph>
-                Hey I'm Kary, an aspiring developer based in Vancouver, BC. I graduated from Brainstation coding bootcamp about 3 years ago. Before web development I work as a renovation contractor alongside my father. Growing up I always knew I wanted do something in tech and with my passion for building things, this eventually lead me to pursue a career in web development. After Brainstation I created a variety of different projects to explore new technologies and volunteered at multiple startups. Currently seeking for a full time position at a company where I can take my skills to the next level and contribute to its growth.
+                Hey I'm Kary, an aspiring developer based in Vancouver, BC. I graduated from Brainstation coding bootcamp about 3 years ago. Before web development I work as a renovation contractor alongside my father. Growing up I always knew I wanted do something in tech and with my passion for building things, this eventually lead me to pursue a career in web development. After Brainstation I created a variety of different projects to explore new technologies and volunteered at multiple startups. Currently seeking for a full time position at a company where I can contribute to its growth and take my skills to the next level.
             </Paragraph>
 
             <Paragraph>
