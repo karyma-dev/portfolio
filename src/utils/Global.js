@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-size: 16px;
         font-weight: 400;
+        overflow-x: hidden;
     }
 
     @media (max-width: 1024px){
